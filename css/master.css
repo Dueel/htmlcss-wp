@@ -76,8 +76,47 @@ h1{
   font-size: 15px;
 }
 
+.imgs{
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+
+main img{
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+}
+
+main p{
+  color: grey;
+}
+
+.section-title{
+  font-weight: 700;
+  margin: 20px 0;
+}
+
 .second{
   background-color: blue;
+}
+
+.second div, aside{
+  background-color: lightblue;
+}
+
+.container{
+  width: 20%;
+  min-height: 300px;
+  float: left;
+  margin: 2% 0;
+}
+
+div.container{
+  width: 56%;
+  margin: 2%;
 }
 
 .second::after{
@@ -86,23 +125,7 @@ h1{
   clear: both;
 }
 
-.second div, aside{
-  background-color: lightblue;
-}
-
-
-.container{
-  width: 20%;
-  height: 300px;
-  float: left;
-  margin: 5% 0;
-}
-
-div.container{
-  width: 50%;
-  margin: 5% calc(100% - 95%);
-}
-
+/* footer */
 footer{
   height: 80px;
   background-color: purple;
