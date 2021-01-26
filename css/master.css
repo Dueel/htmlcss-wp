@@ -1,0 +1,58 @@
+/* GENERIC RULES */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, main, footer{
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* SPECIFIC RULES */
+header{
+  height: 80px;
+  background-color: pink;
+}
+
+.first{
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+
+.second{
+  background-color: blue;
+}
+
+.second::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second div, aside{
+  background-color: lightblue;
+}
+
+#title{
+  height: 80px;
+}
+
+.container{
+  width: 20%;
+  height: 300px;
+  float: left;
+  margin: 5% 0;
+}
+
+div:nth-of-type(2){
+  width: 50%;
+  margin: 5% calc(100% - 95%);
+}
+
+footer{
+  height: 80px;
+  background-color: purple;
+}
