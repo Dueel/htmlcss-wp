@@ -66,6 +66,16 @@ h1{
 }
 
 /* second section */
+#title div{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#title span{
+  color: grey;
+  font-size: 15px;
+}
+
 .second{
   background-color: blue;
 }
@@ -80,9 +90,6 @@ h1{
   background-color: lightblue;
 }
 
-#title{
-  height: 80px;
-}
 
 .container{
   width: 20%;
