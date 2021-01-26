@@ -78,7 +78,24 @@ h1{
 
 main p{
   color: grey;
-  line-height: 1.2em;
+  line-height: 1.3em;
+}
+
+.section-title{
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.container{
+  width: 20%;
+  min-height: 300px;
+  float: left;
+  margin: 2% 0;
+}
+
+div.container{
+  width: 56%;
+  margin: 2%;
 }
 
 .imgs{
@@ -102,23 +119,6 @@ main p{
   background-image: url('../img/img-3.jpg');
 }
 
-.section-title{
-  font-weight: 700;
-  margin: 20px 0;
-}
-
-.container{
-  width: 20%;
-  min-height: 300px;
-  float: left;
-  margin: 2% 0;
-}
-
-div.container{
-  width: 56%;
-  margin: 2%;
-}
-
 .second::after{
   content: "";
   display: table;
@@ -127,6 +127,16 @@ div.container{
 
 /* footer */
 footer{
-  height: 80px;
-  background-color: purple;
+  margin: 30px auto;
+}
+
+footer div{
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+footer div::after{
+  content: '\2764';
+  color: red;
 }
