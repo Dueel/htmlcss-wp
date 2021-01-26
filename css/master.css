@@ -3,17 +3,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header, main, footer{
-  width: 50%;
-  margin: 20px auto;
+  width: 70%;
+  margin: auto;
 }
 
 /* SPECIFIC RULES */
-header{
+header img{
   height: 80px;
-  background-color: pink;
+}
+
+header ul{
+  margin: 40px 0;
+  font-size: 15px;
+}
+
+header li{
+  display: inline;
+  color: grey;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+li:first-child{
+  margin-left: 0;
 }
 
 .first{
